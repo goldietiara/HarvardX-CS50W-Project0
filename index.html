@@ -2,11 +2,35 @@
 <html lang="en">
   <head>
     <title>Search</title>
+    <link rel="stylesheet" href="google.css" />
   </head>
   <body>
+    <nav>
+      <ul class="navbar">
+        <li class="navbar-item">
+          <a href="./image.html">Google Image Search</a>
+        </li>
+        <li class="navbar-item">
+          <a href="./advanced.html">Google Advanced Search</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="center-div">
+      <img
+        src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png"
+        alt="google-logo"
+      />
+    </div>
     <form action="https://www.google.com/search">
-      <input type="text" name="q" />
+      <input
+        type="text"
+        name="q"
+        placeholder="Search Google or type a URL"
+        class="google-input"
+      />
       <input type="submit" value="Google Search" />
     </form>
+
+    <input class="ifl-btn" value="I’m Feeling Lucky" type="submit" />
   </body>
 </html>
