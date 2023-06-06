@@ -1,57 +1,87 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-form {
-  display: flex;
-  justify-content: center;
-}
-.navbar {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-.navbar-item {
-  margin: 1rem;
-}
-.center-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.google-input {
-  background-color: white;
-  border: none;
-  border-radius: calc(0.5 * 44px);
-  color: black;
-  /* font-family: ; */
-  font-size: inherit;
-  outline: 0;
-  margin-top: 10px;
-  padding-inline-end: calc(16px + 26px + 8px);
-  padding-inline-start: 52px;
-  position: relative;
-  height: 44px;
-  width: 561px;
-  /* height: 100%; */
-  /* width: 100%; */
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-a:link {
-  color: black;
-  text-decoration: none;
-}
-a:visited {
-  color: black;
-}
 a:hover {
   color: black;
   text-decoration: underline;
 }
-a:active {
+
+*,
+*:link,
+*:visited,
+*:active {
+  text-decoration: none;
   color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  /* background-color: honeydew; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 7vh;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+nav > ul > li {
+  padding-right: 2rem;
+  /* color: rgba(255, 0, 0, 0.87); */
+}
+
+form {
+  /* background-color: lightgoldenrodyellow; */
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.btn {
+  /* background-color: red; */
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+}
+input {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.input {
+  text-align: left;
+  background-color: white;
+  border: none;
+  border-radius: calc(0.5 * 44px);
+  color: black;
+  font-size: inherit;
+  outline: 0;
+  padding-inline-end: calc(16px + 26px + 8px);
+  padding-inline-start: 52px;
+  position: relative;
+  height: 2.75rem;
+  width: 35rem;
+  /* width: 561px; */
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 img {
