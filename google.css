@@ -1,14 +1,13 @@
 a:hover {
-  color: black;
+  color: #3c4043;
   text-decoration: underline;
 }
 
 *,
-*:link,
-*:visited,
-*:active {
+*::after,
+*::before {
   text-decoration: none;
-  color: black;
+  color: #3c4043;
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -21,6 +20,7 @@ nav {
   justify-content: flex-end;
   align-items: center;
   height: 7vh;
+  font-size: small;
 }
 
 nav > ul {
@@ -45,22 +45,22 @@ form {
 
 .btn {
   /* background-color: red; */
-  width: 25vw;
+  width: 46vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 0.5rem;
 }
 input {
+  /* background-color: blue; */
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
-  color: #3c4043;
   font-family: arial, sans-serif;
-  font-size: 14px;
-  padding: 0 16px;
+  font-size: 0.875rem;
+  padding: 0 1rem;
   line-height: 27px;
-  height: 36px;
+  height: 2.3rem;
   min-width: 54px;
   text-align: center;
   cursor: pointer;
@@ -74,13 +74,12 @@ input {
   color: black;
   font-size: inherit;
   outline: 0;
-  padding-inline-end: calc(16px + 26px + 8px);
+  padding-inline-end: 50px;
   padding-inline-start: 52px;
   position: relative;
-  height: 2.75rem;
+  cursor: auto;
+  height: 3rem;
   width: 35rem;
-  /* width: 561px; */
-
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
