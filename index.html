@@ -3,6 +3,13 @@
   <head>
     <title>Search</title>
     <link rel="stylesheet" href="google.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <nav>
@@ -21,11 +28,19 @@
         src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png"
         alt="google-logo"
       />
-      <input class="input" type="text" name="q" placeholder="Search Google" />
+      <div class="search-bar">
+        <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+        <input class="input" type="text" name="q" placeholder="Search Google" />
+      </div>
 
-      <div class="btn">
-        <input type="submit" value="Google Search" />
-        <input type="submit" value="I’m Feeling Lucky" name="btnI" />
+      <div class="btn-cont">
+        <input class="btn" type="submit" value="Google Search" />
+        <input
+          class="btn"
+          type="submit"
+          value="I’m Feeling Lucky"
+          name="btnI"
+        />
       </div>
     </form>
   </body>
